@@ -1,0 +1,34 @@
+print("DAY 2 – CONDITIONS PROGRAM")
+
+1️⃣ Even or Odd
+
+num = int(input("\nEnter a number: "))
+
+if (num // 2) * 2 == num:
+print("Result: Even")
+else:
+print("Result: Odd")
+
+2️⃣ Vote Eligibility
+
+age = int(input("\nEnter your age: "))
+
+if age >= 18:
+print("Voting Status: Eligible")
+else:
+print("Voting Status: Not Eligible")
+
+3️⃣ Largest of two numbers
+
+a = int(input("\nEnter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+print("Larger number:", a)
+elif b > a:
+print("Larger number:", b)
+else:
+print("Both numbers are equal")
+
+
+print("Incorrect Password ❌")
