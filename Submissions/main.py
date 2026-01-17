@@ -1,4 +1,8 @@
-print("Hello World")
-print("I'm Shreya Pandey")
-print("level:student")
-print("Tech goal: to become a AI and ML engineer")
+name = "Sneha"
+level = "Beginner"
+goal = "Become a c/c++ Developer "
+
+print("Hello World 👋")
+print("I’m", name)
+print("Level:", level)
+print("Goal:", goal)
